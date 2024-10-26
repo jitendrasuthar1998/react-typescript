@@ -134,3 +134,21 @@ const m1 = new Manager("Bruce",25);
 m1.greet();
 m1.getAge();
 m1.delegateWork();
+
+// generic types
+
+// function getFirstElement(array:(string | number)[]){
+//     return array[0];
+// }
+
+function getFirstElement<ElementType>(array:ElementType[]){
+    return array[0];
+}
+
+const fruits = ["Apple", "Mango"];
+
+const firstFruit = getFirstElement(fruits);
+
+const nums = [1,2,3,4,5];
+
+const firstNum = getFirstElement(nums);

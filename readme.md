@@ -53,7 +53,7 @@ To run this example, make sure you have **Node.js** and **TypeScript** installed
 ## TypeScript Concepts Demonstrated
 
 ### 1. **Basic Types and Type Inference**
-   - Declaring `string`, `boolean`, `number`, `array`, and `tuple` types.
+   - Declaring `string`, `boolean`, `number` and `array` types.
    - **Example**: `let total: number = 1000;`
 
 ### 2. **Enums**
